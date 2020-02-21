@@ -21,6 +21,7 @@ module.exports = {
                     data.title = room.querySelector('.excerpt h5 a').innerText;
                     data.description = room.querySelector('.excerpt p a').innerText;
                     data.price = room.querySelector('h6.bestPriceTextColor').innerText;
+                    data.url = url;
 
                     let images = room.querySelectorAll('.thumb div.roomSlider .slide');
                     
