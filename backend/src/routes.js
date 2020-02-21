@@ -11,7 +11,7 @@ const ReservationController = require("./controllers/ReservationController");
 const routes = Router();
 
 routes.get("/", (req, res) => res.json({ message: "Hello World!" }));
-routes.get("/reservations", ReservationController.index);
+routes.post("/reservations", ReservationController.index);
 // routes.get("/devs", DevController.index);
 // routes.post("/devs", DevController.store);
 
