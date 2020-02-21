@@ -4,9 +4,13 @@ Esse projeto foi gerado com [Node](https://nodejs.org) version 10.15.3 and [Angu
 
 ## Backend server
 
+Com o terminal de sua preferência navegue até a pasta `/backend` e rode o comando `npm install` ou `yarn` após finalizar o processo...
+
 Execute `node start` ou `yarn start` para um servidor dev backend. Navegue para `http://localhost:3333/`. acessar a API.
 
 ## Frontend server
+
+Navegue até a pasta `/frontend` e rode o comando `npm install` ou `yarn` após finalizar o processo...
 
 Execute `ng serve` para um dev server. Navegue `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
